@@ -41,8 +41,8 @@ http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
 	- Location<br>
 	- Imagemap<br>
 	- template<br>
-		- button - template<br>
-		- Carousel - template<br>
-		- Image Carousel - template<br>
+		<t>- button - template<br>
+		<t>- Carousel - template<br>
+		<t>- Image Carousel - template<br>
 <br>step4.rich menu<br>	
 	待完成
