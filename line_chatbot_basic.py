@@ -25,12 +25,6 @@ def callback():
 
     # get request body as text
     body = request.get_data(as_text=True)
-    
-    # get user id when reply
-    json_message = json.loads(body)
-    print("json_message =", json_message)
-    userId = json_message['events'][0]["source"]["userId"]
-    print("my userId =", userId)
 
     app.logger.info("Request body: " + body)
 
