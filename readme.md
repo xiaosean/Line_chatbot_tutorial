@@ -25,24 +25,24 @@ http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
 <br>
 
 <br>step1.架設基礎的line chatbot<br>
-	line_chatbot_basic.py
-	透過flask結合line_chatbot做出基本的伺服器，<br>
-	會覆誦你說出的話。<br>
+	<t>line_chatbot_basic.py<br>
+	<t>透過flask結合line_chatbot做出基本的伺服器，<br>
+	<t>會覆誦你說出的話。<br>
 <br>step2.如何獲得user id<br>	
-	show_how_to_get_user_id.py<br>
-	了解如何獲得user id<br>
-	接下來的教學push_tutorial.ipynb會需要使用user id做推播。<br>
+	<t>show_how_to_get_user_id.py<br>
+	<t>了解如何獲得user id<br>
+	<t>接下來的教學push_tutorial.ipynb會需要使用user id做推播。<br>
 <br>step3.如何推送訊息以及訊息種類展示<br>	
-	push_tutorial.ipynb<br>
-	可了解line chatbot有什麼訊息格式可發送<br>
-	裡面有一些示範<br>
-	- Text<br>
-	- Image<br>
-	- Location<br>
-	- Imagemap<br>
-	- template<br>
-		<t>- button - template<br>
-		<t>- Carousel - template<br>
-		<t>- Image Carousel - template<br>
+	<t>push_tutorial.ipynb<br>
+	<t>可了解line chatbot有什麼訊息格式可發送<br>
+	<t>裡面有一些示範<br>
+	<t>- Text<br>
+	<t>- Image<br>
+	<t>- Location<br>
+	<t>- Imagemap<br>
+	<t>- template<br>
+		<t><t>- button - template<br>
+		<t><t>- Carousel - template<br>
+		<t><t>- Image Carousel - template<br>
 <br>step4.rich menu<br>	
-	待完成
+	<t>待完成
