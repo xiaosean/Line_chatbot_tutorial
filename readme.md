@@ -63,8 +63,10 @@ http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
 <br><br>step5.rich menu - 圖文選單<br><br>	
 	<t>在聊天室下方可出現一個長方形的按鈕選單，點選每個按鈕有不同的功能
 	<t>有兩種做法 <br>
-		1.可在官網設定 https://admin-official.line.me/ <br>
-		2.可寫API達成 - 有較高的彈性，可對特定使用者客製化。<br>
+		1.可在官網設定<br> 
+			https://admin-official.line.me/ <br>
+		2.可寫API達成<br>
+			有較高的彈性，可對特定使用者客製化。<br>
 			不過我實際使用連RichMenu都不能import跳過，等勇者嘗試<br>
 			https://github.com/line/line-bot-sdk-python/blob/master/tests/api/test_rich_menu.py
 
