@@ -1,5 +1,4 @@
 # Install - 請安裝flask以及lint_chatbot_sdk
----
 可透過pip install
 ~~~
 pip install flask
@@ -7,19 +6,16 @@ pip install lint_chatbot_sdk
 ~~~
 
 # Line Develop Account - 建立一個Line Develop帳號，以及建置最基礎的環境
----
 <可參考我寫的文章-透過Python 架設 Line Chatbot 教學。>
 http://www.xiaosean.website/chatbot/2018/04/10/LineChatbot/
 
 
 # Config - 更換成你的token
----
 記得將my_token.py的token換成你的！！！
 記得將my_token.py的token換成你的！！！
 記得將my_token.py的token換成你的！！！
 
 # 可以看這篇tutorial了
----
 <可參考我寫的文章-透過Python 架設 Line Chatbot 教學-應用篇。>
 
 http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
@@ -83,7 +79,7 @@ http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
 		https://github.com/line/line-bot-sdk-python/blob/master/tests/api/test_rich_menu.py
 
 ## Todos:
-	[NTUST_CC_Line_chat]
+[NTUST_CC_Line_chat]
 
 
 ## LIcense
