@@ -41,11 +41,17 @@ http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
 	<t>- Location<br>
 	<t>- Imagemap<br>
 	<t>- template<br>
-		<t><t>- button - template<br>
-		<t><t>- Carousel - template<br>
-		<t><t>- Image Carousel - template<br>
+		<t>- button - template<br>
+		<t>- Carousel - template<br>
+		<t>- Image Carousel - template<br>
 <br>step4.reply-透過回覆回來的訊息做處理<br>	
-	<t>介紹各種處理回傳訊息的方式。
+	<t>介紹處理回傳訊息的方式。
+		- MessageEvent
+		- PostbackEvent
+		<t>使用方式：<br>
+		<t>先在line聊天室隨便打個字發送，<br>
+		<t>之後看看各個選項所輸出的結果。<br>
+		<t>以及有用到get_profile的API，可以獲得用戶資料。
 
 <br>step5.rich menu<br>	
 	<t>待完成
