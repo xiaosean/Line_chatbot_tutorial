@@ -53,5 +53,17 @@ http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
 		<t>之後看看各個選項所輸出的結果。<br>
 		<t>以及有用到get_profile的API，可以獲得用戶資料。
 
-<br>step5.rich menu<br>	
-	<t>待完成
+<br>step5.follow event-首次追蹤後會發送訊息<br>	
+	<t>line_chatbot_follow.py<br>
+	<t>相當好用的功能
+
+
+<br>step5.rich menu - 圖文選單<br>	
+	<t>在聊天室下方可出現一個長方形的按鈕選單，點選每個按鈕有不同的功能
+	<t>有兩種做法 <br>
+		<t>1.可在官網設定 https://admin-official.line.me/ <br>
+		<t>2.可寫API達成 - 有較高的彈性，可對特定使用者客製化。<br>
+			不過我實際使用連RichMenu都不能import跳過，等勇者嘗試<br>
+			https://github.com/line/line-bot-sdk-python/blob/master/tests/api/test_rich_menu.py
+
+
