@@ -44,5 +44,8 @@ http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
 		<t><t>- button - template<br>
 		<t><t>- Carousel - template<br>
 		<t><t>- Image Carousel - template<br>
-<br>step4.rich menu<br>	
+<br>step4.reply-透過回覆回來的訊息做處理<br>	
+	<t>介紹各種處理回傳訊息的方式。
+
+<br>step5.rich menu<br>	
 	<t>待完成
