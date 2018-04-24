@@ -25,12 +25,6 @@ def callback():
 
     # get request body as text
     body = request.get_data(as_text=True)
-    
-    # get user id when reply
-    json_message = json.loads(body)
-    print("json_message =", json_message)
-    userId = json_message['events'][0]["source"]["userId"]
-    print("my userId =", userId)
 
     app.logger.info("Request body: " + body)
 
@@ -45,6 +39,9 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
+    # get user id when reply
+    user_id = event.source.user_id
+    print("user_id =", user_id)
 
     line_bot_api.reply_message(
         event.reply_token,
