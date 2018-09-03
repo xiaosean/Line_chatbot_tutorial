@@ -14,6 +14,7 @@ http://www.xiaosean.website/chatbot/2018/04/10/LineChatbot/
 每個XXX.py的token換成你的！！！
 
 line_bot_api = LineBotApi('YOUR_CHANNEL_ACCESS_TOKEN')
+
 handler = WebhookHandler('YOUR_CHANNEL_SECRET')
 
 # 可以看這篇tutorial了
