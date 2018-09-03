@@ -1,4 +1,4 @@
-# Install - 請安裝flask以及lint_chatbot_sdk
+# Install - 請安裝flask以及line_chatbot_sdk
 可透過pip install
 ~~~
 pip install flask
@@ -11,9 +11,10 @@ http://www.xiaosean.website/chatbot/2018/04/10/LineChatbot/
 
 
 # Config - 更換成你的token
-記得將my_token.py的token換成你的！！！
-記得將my_token.py的token換成你的！！！
-記得將my_token.py的token換成你的！！！
+每個XXX.py的token換成你的！！！
+
+line_bot_api = LineBotApi('YOUR_CHANNEL_ACCESS_TOKEN')
+handler = WebhookHandler('YOUR_CHANNEL_SECRET')
 
 # 可以看這篇tutorial了
 <可參考我寫的文章-透過Python 架設 Line Chatbot 教學-應用篇。>
@@ -21,7 +22,7 @@ http://www.xiaosean.website/chatbot/2018/04/10/LineChatbot/
 http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
 
 
-## Step1.架設基礎的line chatbot
+## Step1.架設基礎的Line chatbot
 	
 #### line_chatbot_basic.py
 
@@ -69,8 +70,16 @@ http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
 
 相當好用的功能，首次追蹤後會發送訊息
 
+## Step6.Join event-機器人被邀請至群組後自動說感謝(2018/09/03更)
 
-## Step5.Rich menu - 圖文選單
+<可參考我寫的文章-透過Python Line Chatbot 被邀請入群說出謝謝 - Group chats。>
+
+#### line_chatbot_join.py
+
+
+https://xiaosean.github.io/chatbot/2018/09/03/LineChatbot_group_usage/
+
+## Step7.Rich menu - 圖文選單
 在聊天室下方可出現一個長方形的按鈕選單，
 
 點選每個按鈕有不同的功能
@@ -85,11 +94,12 @@ https://admin-official.line.me/
 
 https://github.com/line/line-bot-sdk-python/blob/master/tests/api/test_rich_menu.py
 
-## Todos:
-[NTUST_CC_Line_chat]
+## 如果有此篇對你有幫助的話，再幫忙點個 Star !!
 
+## TODO
 
-## LIcense
+Rich Menu的API部分
+
+## License
 MIT
 
-[NTUST_CC_Line_chat]:https://github.com/xiaosean/NTUST_Line_Chatbot
