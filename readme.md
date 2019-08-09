@@ -2,7 +2,7 @@
 可透過pip install
 ~~~
 pip install flask
-pip install lint_chatbot_sdk
+pip install line-bot-sdk
 ~~~
 
 # Line Develop Account - 建立一個Line Develop帳號，以及建置最基礎的環境
