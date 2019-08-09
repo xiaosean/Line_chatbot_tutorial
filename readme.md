@@ -7,7 +7,7 @@ pip install line-bot-sdk
 
 # Line Develop Account - 建立一個Line Develop帳號，以及建置最基礎的環境
 <可參考我寫的文章-透過Python 架設 Line Chatbot 教學。>
-http://www.xiaosean.website/chatbot/2018/04/10/LineChatbot/
+https://xiaosean.github.io/chatbot/2018-04-10-LineChatbot/
 
 
 # Config - 更換成你的token
@@ -20,7 +20,7 @@ handler = WebhookHandler('YOUR_CHANNEL_SECRET')
 # 可以看這篇tutorial了
 <可參考我寫的文章-透過Python 架設 Line Chatbot 教學-應用篇。>
 
-http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
+https://xiaosean.github.io/chatbot/2018-04-19-LineChatbot_usage/
 
 
 ## Step1.架設基礎的Line chatbot
@@ -77,8 +77,7 @@ http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
 
 #### line_chatbot_join.py
 
-
-https://xiaosean.github.io/chatbot/2018/09/03/LineChatbot_group_usage/
+https://xiaosean.github.io/chatbot/2018-09-03-LineChatbot_group_usage/
 
 ## Step7.Rich menu - 圖文選單
 在聊天室下方可出現一個長方形的按鈕選單，
